@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Playfair+Display:wght@400;600&family=Raleway:wght@100;200;500&display=swap');
+.banner {
+  background-image: url(
+    https://source.unsplash.com/random/1600x900);
+  background-size: cover;
+  color: rgb(244, 244, 249);
+  padding: 120px;
+}
+
+.banner h1 {
+  font-family: 'Playfair Display', serif;
+  color: rgb(244, 244, 249);
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.banner p {
+  color: rgb(244, 244, 249);
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.container body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: normal;
+}
+
+.container p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container h2 {
+  color: grey;
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(300, 250, 230, 1), rgba(300, 250, 230, 1));
+  color: rgb(100, 150, 150);
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(200, 150, 90, 1), rgba(200, 150, 90, 1));
+}
+
+a {
+  text-decoration: none;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
+
+
